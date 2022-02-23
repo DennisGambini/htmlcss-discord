@@ -1,0 +1,84 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* GENERALI */
+body{
+
+}
+.immagini-prova{
+    background-color: pink;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header{
+    height: 80vh;
+    background-color: #3161E0;
+    color: white;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+nav{
+    line-height: 40px;
+    padding-top: 2%;
+    background-color: brown;
+}
+.logo-box img{
+    height: 40px;
+    vertical-align: middle;
+}
+nav ul li{
+    margin: 0 20px;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logo-box{
+    border: 1px solid black;
+}
+.logo-box, nav ul{
+    float: left;
+    vertical-align: middle;
+}
+#accedi{
+    padding: 10px;
+    height: 40px;
+    border-radius: 25px;
+    vertical-align: middle;
+    float: right;
+}
+.section-text{
+    width: 60%;
+}
+
+
+
+/* MAIN */
+main{
+    background-color: red;
+}
+/* FOOTER */
+footer{
+    background-color: purple;
+}
