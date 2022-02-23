@@ -26,6 +26,9 @@ body{
     width: 70%;
     margin: 0 auto;
 }
+.btn{
+    cursor: pointer;
+}
 .small-btn{
     border: none;
     padding: 10px;
@@ -171,14 +174,14 @@ section{
 section .section-text{
     margin-top: 10%;
 }
-.container img{
+header .container img, main .container img{
     margin-top: 10%;
 }
 
 .main-ending{
     background-color: #F2F2F2;
-    padding-bottom: 20vh;
-    padding-top: 5vh;
+    padding-bottom: 15vh;
+    padding-top: 20vh;
 }
 .main-ending .container{
     width: 30%;
@@ -194,13 +197,72 @@ section .section-text{
     color: white;
 }
 
-
-
-
 /* FOOTER */
 footer{
-    
-    height: 80vh;
+    height: 85vh;
     background-color: #23272A;
 }
+.info-box{
+    border-bottom: 1px solid #8ea1e1;
+    padding-top: 50px;
+}
+#ita-logo{
+    height: 15px;
+}
+.greetings{
+    margin-top: 24px;
+    float: left;
+    display: inline-block;
+    width: 20%;
+    color: white;
+}
+.greetings>h2{
+    color: #8ea1e1;
+}
+.greetings>p, .social{
+    margin-top: 20px;
+}
+i{
+    margin-right: 20px;
+}
+.liste-footer{
+    margin-top: 0px;
+    display: inline-block;
+    width: 79%;
+}
+.row-li{
+    display: inline-block;
+    margin:30px 40px;
+    color: #8ea1e1;
+}
+footer li{
+    color:white;
+}
+.nest-ul>li{
+    list-style-type: none;
+    display: block;
+    margin-top: 10px;
+}
+#first-ul>li{
+    vertical-align: top;
+}
+#first-ul{
+    float: right;
+    margin-block-start: 0;
+}
 
+.end{
+    padding-top: 3%;
+}
+.end button{
+    color: white;
+    background-color: #8EA1E1;
+    border: none;
+    padding: 8px;
+    border-radius: 25px;
+    float: right;
+}
+.end img{
+    height: 30px;
+    float: left;
+}
