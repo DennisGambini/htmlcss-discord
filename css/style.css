@@ -41,7 +41,7 @@ body{
 .section-text{
     font-size: 24px;
 }
-.section-text>h1, .section-text>h2, .section-text p{
+.section-text>h1, .section-text>h2{
     margin-bottom: 40px;
 }
 
@@ -86,8 +86,11 @@ ul li a{
     vertical-align: middle;
     float: right;
 }
-.first-section-text{
-    width: 60%;
+header .section-text{
+    width: 50%;
+}
+header .big-btn{
+    margin-top: 40px;
 }
 
 
@@ -98,14 +101,30 @@ ul li a{
 #first-section img{
     width: 60%;
 }
+#first-section .section-text{
+    width: 35%;
+    float: right;
+}
 #second-section img{
     width: 60%;
+}
+#second-section .section-text{
+    width: 35%;
+    float: left;
 }
 #third-section img{
     width: 60%;
 }
+#third-section .section-text{
+    width: 35%;
+    float: right;
+}
 #fourth-section img{
-    width: 100%;
+    width: 90%;
+}
+#fourth-section .section-text{
+    width: 85%;
+    margin: auto;
 }
 section{
     height: 100vh;
@@ -116,5 +135,19 @@ section{
 
 /* FOOTER */
 footer{
-    background-color: purple;
+
+}
+
+/* DEBUG */
+#first-section{
+    background-color: pink;
+}
+#second-section{
+    background-color: lightblue;
+}
+#third-section{
+    background-color: pink;
+}
+#fourth-section{
+    background-color: lightblue;
 }
