@@ -92,42 +92,106 @@ header .section-text{
 header .big-btn{
     margin-top: 40px;
 }
-
-
+header .small-btn{
+    background-color: white;
+}
+header .big-btn:first-of-type{
+    background-color: white;
+}
+header .big-btn:last-of-type{
+    background-color: black;
+    color: white;
+}
 
 /* MAIN */
 
+section{
+    position: relative;
+}
+#first-section{
+    height: 110vh;
+}
+#second-section{
+    background-color: #F2F2F2;
+    height: 90vh;
+    /* height: 100vh; */
+}
+#third-section{
+    /* height: 110vh; */
+    height: 120vh;
+    padding-top: 20vh;
+}
+#fourth-section{
+    height: 100vh;
+    background-color: #F2F2F2;
+}
+.wave{
+    width: 100%;
+}
+.top-wave{
+    filter: opacity(0.05);
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0;
+}
+.bottom-wave{
+    filter: opacity(0.05);
+    position: absolute;
+    bottom: 0;
+}
 /* IMMAGINI DELLE SECTION */
-#first-section img{
+#first-section .section-text img{
     width: 60%;
 }
 #first-section .section-text{
     width: 35%;
     float: right;
 }
-#second-section img{
+#second-section .section-text img{
     width: 60%;
 }
 #second-section .section-text{
     width: 35%;
     float: left;
 }
-#third-section img{
+#third-section .section-text img{
     width: 60%;
 }
 #third-section .section-text{
     width: 35%;
     float: right;
 }
-#fourth-section img{
+#fourth-section .section-text img{
     width: 90%;
 }
 #fourth-section .section-text{
     width: 85%;
     margin: auto;
 }
-section{
-    height: 100vh;
+section .section-text{
+    margin-top: 10%;
+}
+.container img{
+    margin-top: 10%;
+}
+
+.main-ending{
+    background-color: #F2F2F2;
+    padding-bottom: 20vh;
+    padding-top: 5vh;
+}
+.main-ending .container{
+    width: 30%;
+    margin: auto;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+.main-ending .container button{
+    margin-top: 5vh;
+    background-color: #8EA1E1;
+    color: white;
 }
 
 
@@ -135,19 +199,8 @@ section{
 
 /* FOOTER */
 footer{
-
+    
+    height: 80vh;
+    background-color: #23272A;
 }
 
-/* DEBUG */
-#first-section{
-    background-color: pink;
-}
-#second-section{
-    background-color: lightblue;
-}
-#third-section{
-    background-color: pink;
-}
-#fourth-section{
-    background-color: lightblue;
-}
