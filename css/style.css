@@ -6,7 +6,7 @@
 }
 /* GENERALI */
 body{
-
+    font-family: 'Roboto', sans-serif;
 }
 .immagini-prova{
     background-color: pink;
@@ -23,8 +23,26 @@ body{
     transform: translate(-50%, -50%);
 }
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+}
+.small-btn{
+    border: none;
+    padding: 10px;
+    height: 40px;
+    border-radius: 25px;
+}
+.big-btn{
+    border: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 35px;
+}
+.section-text{
+    font-size: 24px;
+}
+.section-text>h1, .section-text>h2, .section-text p{
+    margin-bottom: 40px;
 }
 
 /* HEADER */
@@ -40,11 +58,9 @@ header{
 nav{
     line-height: 40px;
     padding-top: 2%;
-    background-color: brown;
 }
-.logo-box img{
-    height: 40px;
-    vertical-align: middle;
+nav ul{
+   margin-left: 15%;
 }
 nav ul li{
     margin: 0 20px;
@@ -55,29 +71,49 @@ ul li a{
     color: white;
 }
 .logo-box{
-    border: 1px solid black;
+    width: 10%;
+}
+.logo-box img{
+    width: 100%;
+    vertical-align: middle;
 }
 .logo-box, nav ul{
     float: left;
     vertical-align: middle;
 }
 #accedi{
-    padding: 10px;
-    height: 40px;
-    border-radius: 25px;
+    width: 70px;
     vertical-align: middle;
     float: right;
 }
-.section-text{
+.first-section-text{
     width: 60%;
 }
 
 
 
 /* MAIN */
-main{
-    background-color: red;
+
+/* IMMAGINI DELLE SECTION */
+#first-section img{
+    width: 60%;
 }
+#second-section img{
+    width: 60%;
+}
+#third-section img{
+    width: 60%;
+}
+#fourth-section img{
+    width: 100%;
+}
+section{
+    height: 100vh;
+}
+
+
+
+
 /* FOOTER */
 footer{
     background-color: purple;
